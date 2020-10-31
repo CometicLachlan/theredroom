@@ -1,2 +1,2 @@
 # theredroom
-The Red Is Is A POV Parkour Game Developed By Cometic Games Ltd
+The Red Room Is Is A POV Parkour Game Developed By Cometic Games Ltd. 
