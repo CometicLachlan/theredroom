@@ -12,7 +12,7 @@ public class OptionsMenu : MonoBehaviour {
 
     Resolution[] resolutions;
 
-   private void start ()
+   void Start ()
     {
         resolutions = Screen.resolutions;
 
@@ -40,7 +40,13 @@ public class OptionsMenu : MonoBehaviour {
     }
     public void SetVolume (float volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("Volume", volume);
+    }
+
+    public void SetResolution (int resolutionIndex)
+    {
+        Resolution resolution = resolutions[resolutionIndex];
+        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
     public void SetQuality (int qualityIndex)
