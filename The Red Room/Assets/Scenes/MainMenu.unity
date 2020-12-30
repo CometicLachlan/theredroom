@@ -3968,6 +3968,16 @@ PrefabInstance:
       propertyPath: presence.partyMax
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114922932606890730, guid: 6765f9da738e023499d7110035d6a3f9,
+        type: 3}
+      propertyPath: presence.partyId
+      value: ae488379-351d-4a4f-ad32-2b9b01c91657
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922932606890730, guid: 6765f9da738e023499d7110035d6a3f9,
+        type: 3}
+      propertyPath: presence.joinSecret
+      value: 'MTI4NzM0OjFpMmhuZToxMjMxMjM= '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6765f9da738e023499d7110035d6a3f9, type: 3}
 --- !u!1 &1460908142
