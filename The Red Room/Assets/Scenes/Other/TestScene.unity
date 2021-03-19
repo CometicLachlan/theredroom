@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b216e3926b7c5a74abbc550be2555361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grappling: {fileID: 2009602785}
+  grappling: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9483127c2919ea94ead8bafe0f75b366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Teleport: {fileID: 0}
 --- !u!114 &1486719787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1876,15 +1877,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2009602783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1b72afb5be6d334dbcc3d389a493eac, type: 3}
+  m_Script: {fileID: 11500000, guid: b6a47c0cb70897b4190b154ed163abdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatIsGrappleable:
-    serializedVersion: 2
-    m_Bits: 1024
-  gunTip: {fileID: 1841420097}
-  camera: {fileID: 380090904}
-  player: {fileID: 343584322}
+  spawnPoint: {fileID: 2083014726}
+  ExplosionPrefab: {fileID: 1715198433}
+  projectilePrefab: {fileID: 343584324}
 --- !u!120 &2009602786
 LineRenderer:
   m_ObjectHideFlags: 0
