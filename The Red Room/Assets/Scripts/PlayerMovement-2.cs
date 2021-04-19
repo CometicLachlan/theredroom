@@ -1,8 +1,8 @@
-
+﻿
 using System;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class WallRunTutorial : MonoBehaviour
 {
     /// <summary>
     /// Wall run Tutorial stuff, scroll down for full movement
@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Wallrunning
     public LayerMask whatIsWall;
-    public float wallrunForce, maxWallrunTime, maxWallSpeed;
+    public float wallrunForce,maxWallrunTime, maxWallSpeed;
     bool isWallRight, isWallLeft;
     bool isWallRunning;
     public float maxWallRunCameraTilt, wallRunCameraTilt;
