@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    /// <summary>
-    /// Wall run Tutorial stuff, scroll down for full movement
-    /// </summary>
-
-    //Wallrunning
+     //Wallrunning
     public LayerMask whatIsWall;
     public float wallrunForce, maxWallrunTime, maxWallSpeed;
     bool isWallRight, isWallLeft;
@@ -23,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void StartWallrun()
     {
-        rb.useGravity = false;
+        rb.useGravity = true;
         isWallRunning = true;
         allowDashForceCounter = false;
 

@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b216e3926b7c5a74abbc550be2555361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grappling: {fileID: 0}
+  grappling: {fileID: 2009602785}
 --- !u!43 &124266062
 Mesh:
   m_ObjectHideFlags: 0
@@ -3773,6 +3773,7 @@ GameObject:
   - component: {fileID: 1434967876}
   - component: {fileID: 1434967875}
   - component: {fileID: 1434967874}
+  - component: {fileID: 1434967877}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3860,6 +3861,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1434967877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434967872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748557613c5a3446b539b3bb05f231a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1484250652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3954,6 +3967,7 @@ GameObject:
   - component: {fileID: 1486719788}
   - component: {fileID: 1486719787}
   - component: {fileID: 1486719786}
+  - component: {fileID: 1486719790}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -4079,6 +4093,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486719784}
   m_CullTransparentMesh: 0
+--- !u!114 &1486719790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486719784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748557613c5a3446b539b3bb05f231a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1715198433
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,12 +4746,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2009602783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6a47c0cb70897b4190b154ed163abdd, type: 3}
+  m_Script: {fileID: 11500000, guid: f1b72afb5be6d334dbcc3d389a493eac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 2083014726}
-  ExplosionPrefab: {fileID: 1715198433}
-  projectilePrefab: {fileID: 343584324}
+  whatIsGrappleable:
+    serializedVersion: 2
+    m_Bits: 1536
+  gunTip: {fileID: 1841420097}
+  camera: {fileID: 380090904}
+  player: {fileID: 343584322}
 --- !u!120 &2009602786
 LineRenderer:
   m_ObjectHideFlags: 0
